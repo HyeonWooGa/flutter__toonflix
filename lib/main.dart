@@ -20,10 +20,16 @@ class App extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Hello Flutter'),
+          centerTitle: false,
         ),
         body: Center(
           child: Text(
             'Hello World!',
+            style: TextStyle(
+              backgroundColor: Colors.amber,
+              fontSize: 16,
+              color: Colors.blue,
+            ),
           ),
         ),
       ),
